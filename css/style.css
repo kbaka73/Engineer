@@ -449,10 +449,7 @@ footer{
     section{
         padding: 2rem ;
     }
-    
-}
-@media(max-width:768px){
-    .header .navbar{
+        .header .navbar{
         position: absolute;
         top: 110%;right: -110%;
         width: 30rem;
@@ -473,6 +470,9 @@ footer{
     .header .icons div{
         display: inline-block;
     }
+}
+@media(max-width:768px){
+
 
     .services .services-box .row .card{
         width: 75%;
